@@ -27,11 +27,7 @@ public class MybatisConfig {
 		per.setProperty("reasonable", "true");
 		
 		p.setProperties(per);
-		System.out.println("*******************888");
-		System.out.println("*******************888");
-		System.out.println("*******************888");
-		
-		System.out.println("*******************888");
+
 		return p;
 		
 	
