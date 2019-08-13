@@ -17,7 +17,7 @@ public class MybatisConfig {
 	@Bean
 	public PageHelper pageHelper(){
 		PageHelper p = new PageHelper();
-		// 创建一个属性文件对象,把实例化pagehelper 需要的参数写 到里面
+		// 创建一个属性文件对象,把实例化pagehelper 需要的参数写123
 		Properties  per = new Properties();
 		// 设置页码
 		per.setProperty("offsetAspageNum", "true");
